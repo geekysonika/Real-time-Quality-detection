@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Smooth scrolling between sections */
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    color: #00796b; 
+}
+
+/* Container styling for the first section */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    min-height: 100vh; /* Occupy full height of the viewport */
+}
+
+.location-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Search button styles */
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00796b;
+    color: #ffffff; 
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #004d40;
+}
+
+/* Health Advice Section (Second Page) */
+.health-advice {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    min-height: 100vh; /* Make sure it occupies the full page height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-content {
+    display: flex;
+    flex-direction: row; /* Align content horizontally */
+    overflow-x: auto; /* Make it horizontally scrollable if needed */
+    gap: 40px; /* Space between items */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.images {
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.images img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* For better spacing and alignment */
+p {
+    margin: 0;
+    font-size: 1.2em;
+}

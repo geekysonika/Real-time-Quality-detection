@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light cyan background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for contrast */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed; /* Fixed positioning for consistent placement */
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure navbar is above other content */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff; /* White text color */
+    font-size: 1em;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00acc1; /* Teal color on hover */
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center; /* Centers content vertically */
+    width: 100%;
+    max-width: 1200px; /* Restrict width for better layout control */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+/* Heading Styles */
+.heading {
+    font-size: clamp(2em, 4vw, 3.5em); /* Responsive font size */
+    color: #00796b; /* Teal color for the heading */
+    font-weight: bold;
+    line-height: 1.3;
+    max-width: 70%; /* Restrict heading width to fit within the viewport */
+    text-align: left; /* Align text to the left */
+    margin: 0; /* Remove default margin */
+    overflow-wrap: break-word; /* Break long words */
+}
+
+
+
+
+
+/* Water Wave Animation Background */
+/* body::before {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: 150px; 
+    background: linear-gradient(to bottom, rgba(0, 119, 136, 0.2), rgba(0, 119, 136, 0.5));
+    background-size: 200% 100%;
+    z-index: 0; 
+    pointer-events: none; 
+    animation: waterWave 15s infinite linear;
+} */
+
+/* Water Wave Animation Keyframes */
+/* @keyframes waterWave {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+} */

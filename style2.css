@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#wqi-display {
+    margin: 20px 0;
+}
+
+#wqi-value {
+    font-size: 3em;
+    color: #333;
+}
+
+#wqi-status {
+    font-size: 1.2em;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
